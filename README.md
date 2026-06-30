@@ -45,7 +45,7 @@ This ensured:
 
 ---
 
-## 🧠 Feature Selection
+## Feature Selection
 
 Feature importance was evaluated using multiple models:
 
