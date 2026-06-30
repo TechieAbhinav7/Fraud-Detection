@@ -203,7 +203,7 @@ All trained models were saved using `Joblib` for:
 
 ---
 
-## ⚠️ Limitations & Future Work
+## Limitations & Future Work
 
 - No threshold optimization applied (future improvement)
 - Precision-Recall AUC not evaluated
@@ -232,6 +232,6 @@ The final system achieves **high recall (96.22%)**, making it effective for real
 
 ---
 
-## 📌 Author Notes
+## Author Notes
 
 Designed as a fraud detection system focusing on **recall optimization in highly imbalanced datasets** with large-scale data processing considerations.
