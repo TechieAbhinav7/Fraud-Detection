@@ -1,4 +1,4 @@
-# 💳 Fraud Detection Using Machine Learning & Ensemble Models
+# Fraud Detection Using Machine Learning & Ensemble Models
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Machine Learning](https://img.shields.io/badge/Machine-Learning-orange)
@@ -7,7 +7,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project focuses on detecting fraudulent financial transactions using multiple machine learning models and ensemble techniques.
 
@@ -17,7 +17,7 @@ The primary objective is to **maximize fraud detection (recall)** while maintain
 
 ---
 
-## 📊 Problem Statement
+## Problem Statement
 
 Fraud detection is a highly imbalanced classification problem where fraudulent transactions represent a very small fraction of total data.
 
@@ -28,7 +28,7 @@ Key challenges:
 
 ---
 
-## ⚙️ Data Preprocessing
+## Data Preprocessing
 
 ### 🔹 Sampling Strategy
 
@@ -56,7 +56,7 @@ Feature importance was evaluated using multiple models:
 - XGBoost  
 - Logistic Regression  
 
-### 📌 Final Features Used
+### Final Features Used
 
 - Transaction Amount  
 - Transaction Category  
@@ -69,9 +69,9 @@ Feature importance was evaluated using multiple models:
 
 ---
 
-## 🔧 Feature Engineering
+## Feature Engineering
 
-### 🌳 Tree-Based Models
+### Tree-Based Models
 - Ordinal Encoding
 - Robust Scaling
 
@@ -84,7 +84,7 @@ Models:
 
 ---
 
-### 📈 Linear Models
+### Linear Models
 - One-Hot Encoding
 - Robust Scaling
 
@@ -93,7 +93,7 @@ Model:
 
 ---
 
-## 🤖 Machine Learning Models
+## Machine Learning Models
 
 - Decision Tree  
 - Random Forest  
@@ -104,7 +104,7 @@ Model:
 
 ---
 
-## 🧪 Model Training Strategy
+## Model Training Strategy
 
 1. Train-test split using `train_test_split`
 2. Hyperparameter tuning using:
@@ -117,7 +117,7 @@ Model:
 
 ---
 
-## 🔀 Ensemble Learning
+## Ensemble Learning
 
 Weighted voting ensembles were built to improve fraud detection performance.
 
@@ -130,7 +130,7 @@ Weighted voting ensembles were built to improve fraud detection performance.
 
 ---
 
-### ⚖️ Weight Optimization
+### Weight Optimization
 
 A custom framework was used to:
 - Generate valid weight combinations
@@ -140,7 +140,7 @@ A custom framework was used to:
 
 ---
 
-### 🎯 Optimization Objective
+###  Optimization Objective
 
 - Individual models → optimized using **F1 Score**
 - Ensembles → optimized using **Recall**
@@ -149,9 +149,9 @@ Goal: **Minimize false negatives (missed fraud cases)**
 
 ---
 
-## 🏆 Best Performing Model
+##  Best Performing Model
 
-### ⭐ Dual Model Recall Ensemble
+### Dual Model Recall Ensemble
 
 **Models used:**
 - XGBoost  
@@ -161,7 +161,7 @@ This combination outperformed larger ensembles in recall-based evaluation.
 
 ---
 
-## 📈 Final Model Performance (Test Set)
+## Final Model Performance (Test Set)
 
 ### Confusion Matrix Summary
 
@@ -172,7 +172,7 @@ This combination outperformed larger ensembles in recall-based evaluation.
 
 ---
 
-### 📊 Metrics
+### Metrics
 
 | Metric | Value |
 |--------|------:|
@@ -183,7 +183,7 @@ This combination outperformed larger ensembles in recall-based evaluation.
 
 ---
 
-## 📌 Key Insights
+## Key Insights
 
 - Model successfully captures **96%+ of fraud cases**
 - Low precision is expected due to extreme class imbalance
@@ -192,7 +192,7 @@ This combination outperformed larger ensembles in recall-based evaluation.
 
 ---
 
-## 💾 Model Persistence
+## Model Persistence
 
 All trained models were saved using `Joblib` for:
 
@@ -213,7 +213,7 @@ All trained models were saved using `Joblib` for:
 
 ---
 
-## 🚀 Conclusion
+## Conclusion
 
 This project demonstrates a scalable fraud detection system using multiple machine learning models and ensemble learning.
 
@@ -221,7 +221,7 @@ The final system achieves **high recall (96.22%)**, making it effective for real
 
 ---
 
-## 📂 Tech Stack
+## Tech Stack
 
 - Python
 - Pandas, NumPy
